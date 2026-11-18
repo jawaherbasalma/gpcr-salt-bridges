@@ -1,0 +1,35 @@
+# Structures to analyse.
+#
+# Each entry needs:
+#   pdb_id   the four-character PDB identifier
+#   uniprot  the receptor's UniProt accession, used to tell receptor
+#            residues from fusion-protein residues
+#   state    inactive | active | intermediate  (your own annotation)
+#   note     free text, for your own reference
+#
+# Everything else — resolution, chains, which residues are receptor —
+# is fetched from the RCSB API by scripts/01_download_structures.py.
+#
+# VERIFY each entry on rcsb.org before trusting it. The UniProt
+# accessions below are a starting point, not checked values.
+
+structures:
+  - pdb_id: 1F88
+    uniprot: P02699
+    state: inactive
+    note: Bovine rhodopsin. Textbook ionic lock R135-E247. Dimer, two chains.
+
+  - pdb_id: 2RH1
+    uniprot: P07550
+    state: inactive
+    note: Beta-2 adrenergic receptor. T4 lysozyme fused into ICL3.
+
+  - pdb_id: 3SN6
+    uniprot: P07550
+    state: active
+    note: Beta-2 adrenergic receptor in complex with Gs. Lock should be broken.
+
+  - pdb_id: 6LFL
+    uniprot: P25025
+    state: inactive
+    note: CXCR2. Non-acidic 6.30, so no ionic lock expected.
