@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "GPCR salt bridges"
+abstract: "Reproducible extraction of salt bridges from GPCR structures"
+type: software
+authors:
+  - given-names: "Jawaher"
+    family-names: "Basalma"
+    email: "jawaherbasalma@gmail.com"
+    orcid: "https://orcid.org/0009-0000-4159-2813"
+repository-code: "https://github.com/jawaherbasalma/gpcr-salt-bridges"
+license: MIT
+version: 0.1.0
+date-released: "2026-11-17"
