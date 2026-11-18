@@ -16,9 +16,14 @@ ipykernel = ">=7"
 pandas = ">=2"
 matplotlib = ">=3.9"
 papermill = ">=2.6"   # Quarto needs it for report parameters (-P)
+openbabel = ">=3.2.1,<4"
+pyyaml = ">=6.0.3,<7"
 
 [tasks]
 check = { cmd = "python --version && quarto --version", description = "Check that the tools work" }
 # `reproduce` must rebuild every result from the raw data with one command.
 # The lessons replace this placeholder with real steps.
 reproduce = { cmd = "python -c \"print('Nothing to reproduce yet: add your steps to the reproduce task in pixi.toml')\"", description = "Rebuild all results from raw data" }
+
+[pypi-dependencies]
+pdbe-arpeggio = ">=1.4.4, <2"

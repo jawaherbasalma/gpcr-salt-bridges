@@ -60,55 +60,56 @@ log.
 **Hydrogens.** Ignored. Most crystal structures do not resolve them, so all
 distances are between heavy atoms.
 
+**Multiple copies.** Many structures contain more than one copy of the
+receptor. The copies are not identical: in 1F88, chain A yields 5 salt
+bridges and chain B yields 8, because some side chains sit near the
+detection threshold. All protein chains are processed and the chain is
+recorded per row; analyses that need one copy choose it downstream.
+
 ---
 
-## 3. Contact definition
+## 3. Contact detection
 
-Two residues are in contact when any heavy atom of one lies within
-**4.5 Å** of any heavy atom of the other.
+Contacts are detected by `pdbe-arpeggio`, not by code written for this
+project. Arpeggio determines interactions from van der Waals radius overlap
+rather than a flat distance cutoff, and adds hydrogens computationally before
+judging polar interactions.
 
-**Sequence separation.** Residues closer than **4 positions apart** in sequence
-are excluded, since neighbouring residues in a helix are trivially in contact.
-Residues on either side of a gap caused by unresolved density are compared by
-their sequence numbers, not by their position in the resolved chain.
+Default parameters are used, with these consequences:
 
-**Chains.** Intra-chain only, following section 2.
+- Residues adjacent in sequence are excluded (arpeggio's default; `-sa`
+  would include them).
+- Hydrogens are added at the default pH, which determines histidine
+  protonation.
 
+Arpeggio labels each atom-atom contact with one or more types: `proximal`,
+`hydrophobic`, `vdw_clash`, `polar`, `weak_polar`, `vdw`, `aromatic`,
+`carbonyl`, `hbond`, `ionic`, `covalent`, `metal_complex`.
 ---
 
 ## 4. Salt bridge definition
 
-A salt bridge is a contact between oppositely charged side-chain groups.
+A salt bridge is a residue pair where at least one atom-atom contact between
+them is labelled `ionic` by arpeggio.
 
-**Negatively charged atoms**
+Two filters are applied to arpeggio's output:
 
-| Residue | Atoms |
-|---|---|
-| Asp | OD1, OD2 |
-| Glu | OE1, OE2 |
+**Protein only.** Both partners must have `label_comp_type == "P"`. This
+excludes metal ions, ligands and solvent. Without it, glutamate-to-zinc
+contacts are reported as salt bridges.
 
-**Positively charged atoms**
+**Same chain.** Only intra-chain pairs are kept. The chain is recorded on
+every row.
 
-| Residue | Atoms |
-|---|---|
-| Lys | NZ |
-| Arg | NE, NH1, NH2 |
+**Histidine is included**, and rows involving it are flagged in an
+`involves_histidine` column. Histidine protonation is predicted rather than
+observed, since crystal structures do not resolve hydrogens, so downstream
+analyses may wish to exclude these. Excluding the residue outright would
+bias the catalogue.
 
-**Criterion.** A salt bridge exists when any nitrogen from the positive list is
-within **4.0 Å** of any oxygen from the negative list.
-
-**Histidine.** Excluded by default. Its protonation state depends on local pH
-and is not determined by the structure. A configuration flag
-(`include_histidine`) allows ND1 and NE2 to be added to the positive list; when
-enabled, histidine bridges are marked in a separate column rather than mixed in.
-
-**Termini.** The charged N- and C-termini of the chain are not counted. Only
-side chains.
-
-Every salt bridge is also a contact under section 3, so salt bridges are a
-labelled subset of the contact table, not a separate calculation.
-
----
+**Collapsing to residues.** One salt bridge produces many atom-atom rows in
+arpeggio's output. Rows are collapsed to one per residue pair, keeping the
+shortest distance.
 
 ## 5. Output format
 
@@ -159,23 +160,12 @@ Reported per structure:
 
 ## 7. Decisions still open
 
-Resolve these before generating code, or accept that the two implementations
-will diverge here.
-
-1. **Sequence separation.** Four positions is a guess. Too small and helical
-   i,i+4 pairs dominate the output; too large and genuine short-range bridges
-   are lost. The helical salt bridges may actually be worth keeping.
-2. **Contact cutoff.** 4.5 Å between heavy atoms is a common choice. Some work
-   uses 8 Å between Cβ atoms instead, which is coarser and would give a very
-   different table.
-3. **Histidine.** Excluding it is the conservative choice but loses real
-   bridges.
-4. **Fusion detection.** Relying on numbering ranges requires knowing each
-   receptor's native range. An alternative is to read the entity description
-   from the mmCIF file, which is more automatic but less predictable.
-
----
-
+1. **Fusion proteins.** Many GPCR structures replace ICL3 with BRIL or T4
+   lysozyme. Detection by native numbering range requires knowing each
+   receptor's range; reading the mmCIF entity description is more automatic
+   but less predictable. Unresolved.
+2. **pH for hydrogen addition.** Arpeggio's default is used. Whether a
+   different value changes the histidine results has not been tested.
 ## 8. Sanity checks
 
 These must hold, and failing one means the implementation is wrong rather than
