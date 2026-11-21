@@ -19,6 +19,8 @@ papermill = ">=2.6"   # Quarto needs it for report parameters (-P)
 openbabel = ">=3.2.1,<4"
 pyyaml = ">=6.0.3,<7"
 nextflow = ">=26.10.6,<27"
+gemmi = ">=0.7.5,<0.8"
+scipy = ">=1.18.1,<2"
 
 [tasks]
 check = { cmd = "python --version && quarto --version", description = "Check that the tools work" }

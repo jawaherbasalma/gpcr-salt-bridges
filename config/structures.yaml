@@ -13,6 +13,12 @@
 #
 # UniProt accessions are unverified except P07550. Check on uniprot.org.
 
+generic_positions:
+  - "3.49"
+  - "3.50"
+  - "5.58"
+  - "6.30"
+
 structures:
 
   - pdb_id: 1U19
