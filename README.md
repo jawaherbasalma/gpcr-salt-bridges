@@ -52,6 +52,22 @@ Experimentally determined structures of class A GPCRs from the RCSB PDB
 access dates and SHA256 checksums are recorded in
 `metadata/structures.csv`.
 
+## Question and hypothesis
+
+Does the ionic lock, a salt bridge between transmembrane helices 3 and 6,
+break when a class A GPCR activates?
+
+Hypothesis: the cytoplasmic ends of TM3 and TM6 are closer together in
+inactive-state structures than in active-state ones, measured as the
+distance between generic positions 3.50 and 6.30.
+
+Secondary: a salt bridge between those two positions is present in
+inactive structures and absent in active ones.
+
+Comparison: six class A receptors, each solved in both states — rhodopsin,
+beta-2 adrenergic, M2 muscarinic, mu-opioid, A2A adenosine and
+kappa-opioid.
+
 ## How to cite
 
 See `CITATION.cff`. GitHub shows a "Cite this repository" button for it.
