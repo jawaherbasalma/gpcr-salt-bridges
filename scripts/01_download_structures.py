@@ -17,6 +17,7 @@ in which case the script stops and says so rather than overwriting.
 import csv
 import hashlib
 import json
+import os
 import sys
 import time
 import urllib.error
@@ -26,7 +27,9 @@ from pathlib import Path
 
 import yaml
 
-CONFIG = Path("config/structures.yaml")
+# Which structure list to use. Defaults to the small committed one; point
+# STRUCTURES_CONFIG at config/structures_all.yaml for the full set.
+CONFIG = Path(os.environ.get("STRUCTURES_CONFIG", "config/structures.yaml"))
 RAW_DIR = Path("data/raw")
 META_DIR = Path("metadata")
 
@@ -176,8 +179,8 @@ def main():
         structure_rows.append(
             {
                 "pdb_id": pdb_id,
-                "receptor": item.get("receptor", ""),
                 "uniprot": uniprot,
+                "receptor": item.get("receptor", ""),
                 "state": item.get("state", ""),
                 "title": entry.get("struct", {}).get("title", ""),
                 "method": info.get("experimental_method", ""),

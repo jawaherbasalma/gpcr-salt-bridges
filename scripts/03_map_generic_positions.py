@@ -31,6 +31,7 @@ Run from the project root:
 
 import csv
 import json
+import os
 import sys
 import time
 import urllib.error
@@ -41,7 +42,9 @@ from pathlib import Path
 import gemmi
 import yaml
 
-CONFIG = Path("config/structures.yaml")
+# Which structure list to use. Defaults to the small committed one; point
+# STRUCTURES_CONFIG at config/structures_all.yaml for the full set.
+CONFIG = Path(os.environ.get("STRUCTURES_CONFIG", "config/structures.yaml"))
 RAW_DIR = Path("data/raw")
 GPCRDB_DIR = RAW_DIR / "gpcrdb"
 META_DIR = Path("metadata")
