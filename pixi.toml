@@ -25,8 +25,14 @@ scipy = ">=1.18.1,<2"
 [tasks]
 check = { cmd = "python --version && quarto --version", description = "Check that the tools work" }
 # `reproduce` must rebuild every result from the raw data with one command.
-# The lessons replace this placeholder with real steps.
-reproduce = { cmd = "python -c \"print('Nothing to reproduce yet: add your steps to the reproduce task in pixi.toml')\"", description = "Rebuild all results from raw data" }
+reproduce = """
+python scripts/01_download_structures.py &&
+python scripts/02_extract_salt_bridges.py &&
+python scripts/03_map_generic_positions.py &&
+python scripts/04_test_lock.py &&
+python scripts/figures.py &&
+quarto render reports/report.qmd
+"""
 
 [pypi-dependencies]
 pdbe-arpeggio = ">=1.4.4, <2"
