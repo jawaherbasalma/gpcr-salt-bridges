@@ -68,6 +68,35 @@ Comparison: six class A receptors, each solved in both states — rhodopsin,
 beta-2 adrenergic, M2 muscarinic, mu-opioid, A2A adenosine and
 kappa-opioid.
 
+## Results
+
+The distance hypothesis holds, with complete separation between the groups.
+Every inactive structure has 3.50 and 6.30 closer together than every active
+structure: 2.7 to 10.1 A inactive, 11.6 to 14.7 A active. Mann-Whitney
+p = 0.004, which is the smallest value possible at these group sizes.
+
+The salt bridge hypothesis does not. A bridge is detected in one of six
+inactive structures and none of five active ones. Two receptors, mu- and
+kappa-opioid, carry a leucine at 6.30 and cannot form the interaction at
+all. In two others the acidic partner is present but too distant to
+interact, including the beta-2 adrenergic receptor at 7.1 A, consistent
+with published reports that its ionic lock is not formed.
+
+So the helices separate reliably on activation, while the salt bridge
+itself is rarer than the textbook account suggests.
+
+## Output
+
+`results/lock_status.csv` — per structure: the residues at 3.50 and 6.30,
+whether a salt bridge is detected between them, and their closest approach.
+
+`results/lock_test.json` — group counts, Fisher exact test on lock presence,
+Mann-Whitney test on distances.
+
+`data/processed/salt_bridges.csv` — every salt bridge found in every
+structure, which the above is drawn from.
+
+
 ## How to cite
 
 See `CITATION.cff`. GitHub shows a "Cite this repository" button for it.

@@ -176,6 +176,7 @@ def main():
         structure_rows.append(
             {
                 "pdb_id": pdb_id,
+                "receptor": item.get("receptor", ""),
                 "uniprot": uniprot,
                 "state": item.get("state", ""),
                 "title": entry.get("struct", {}).get("title", ""),
