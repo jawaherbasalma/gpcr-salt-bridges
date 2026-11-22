@@ -170,7 +170,7 @@ def main():
             f"    uniprot: {entry['uniprot']}",
             f"    receptor: {entry['receptor']}",
             f"    state: {entry['state']}",
-            f"    note: {entry['note']}",
+            f"    note: {json.dumps(entry['note'])}",
             "",
         ]
 

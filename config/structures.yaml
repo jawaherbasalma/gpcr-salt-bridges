@@ -21,70 +21,70 @@ structures:
     uniprot: P41143
     receptor: oprd
     state: inactive
-    note: &delta; receptor. X-ray diffraction, 1.8 A, preferred chain A.
+    note: "&delta; receptor. X-ray diffraction, 1.8 A, preferred chain A."
 
   - pdb_id: 9YDQ
     uniprot: P41143
     receptor: oprd
     state: active
-    note: &delta; receptor. Electron microscopy, 1.94 A, preferred chain R.
+    note: "&delta; receptor. Electron microscopy, 1.94 A, preferred chain R."
 
   - pdb_id: 8A6E
     uniprot: P02699
     receptor: opsd
     state: inactive
-    note: Rhodopsin. X-ray diffraction, 1.8 A, preferred chain A.
+    note: "Rhodopsin. X-ray diffraction, 1.8 A, preferred chain A."
 
   - pdb_id: 4X1H
     uniprot: P02699
     receptor: opsd
     state: active
-    note: Rhodopsin. X-ray diffraction, 2.29 A, preferred chain A.
+    note: "Rhodopsin. X-ray diffraction, 2.29 A, preferred chain A."
 
   - pdb_id: 9LQY
     uniprot: P35414
     receptor: apj
     state: inactive
-    note: apelin receptor. Electron microscopy, 2.4 A, preferred chain A.
+    note: "apelin receptor. Electron microscopy, 2.4 A, preferred chain A."
 
   - pdb_id: 9LR1
     uniprot: P35414
     receptor: apj
     state: active
-    note: apelin receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "apelin receptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 4BVN
     uniprot: P07700
     receptor: adrb1
     state: inactive
-    note: &beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.1 A, preferred chain A.
+    note: "&beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.1 A, preferred chain A."
 
   - pdb_id: 8DCS
     uniprot: P07700
     receptor: adrb1
     state: active
-    note: &beta;<sub>1</sub>-adrenoceptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "&beta;<sub>1</sub>-adrenoceptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 7F8Y
     uniprot: P32238
     receptor: cckar
     state: inactive
-    note: CCK<sub>1</sub> receptor. X-ray diffraction, 2.5 A, preferred chain A.
+    note: "CCK<sub>1</sub> receptor. X-ray diffraction, 2.5 A, preferred chain A."
 
   - pdb_id: 7MBX
     uniprot: P32238
     receptor: cckar
     state: active
-    note: CCK<sub>1</sub> receptor. Electron microscopy, 1.95 A, preferred chain R.
+    note: "CCK<sub>1</sub> receptor. Electron microscopy, 1.95 A, preferred chain R."
 
   - pdb_id: 6HLP
     uniprot: P25103
     receptor: nk1r
     state: inactive
-    note: NK<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain A.
+    note: "NK<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain A."
 
   - pdb_id: 8U26
     uniprot: P25103
     receptor: nk1r
     state: active
-    note: NK<sub>1</sub> receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "NK<sub>1</sub> receptor. Electron microscopy, 2.5 A, preferred chain R."

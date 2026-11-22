@@ -21,1042 +21,1042 @@ structures:
     uniprot: P41143
     receptor: oprd
     state: inactive
-    note: &delta; receptor. X-ray diffraction, 1.8 A, preferred chain A.
+    note: "&delta; receptor. X-ray diffraction, 1.8 A, preferred chain A."
 
   - pdb_id: 9YDQ
     uniprot: P41143
     receptor: oprd
     state: active
-    note: &delta; receptor. Electron microscopy, 1.94 A, preferred chain R.
+    note: "&delta; receptor. Electron microscopy, 1.94 A, preferred chain R."
 
   - pdb_id: 8A6E
     uniprot: P02699
     receptor: opsd
     state: inactive
-    note: Rhodopsin. X-ray diffraction, 1.8 A, preferred chain A.
+    note: "Rhodopsin. X-ray diffraction, 1.8 A, preferred chain A."
 
   - pdb_id: 4X1H
     uniprot: P02699
     receptor: opsd
     state: active
-    note: Rhodopsin. X-ray diffraction, 2.29 A, preferred chain A.
+    note: "Rhodopsin. X-ray diffraction, 2.29 A, preferred chain A."
 
   - pdb_id: 9LQY
     uniprot: P35414
     receptor: apj
     state: inactive
-    note: apelin receptor. Electron microscopy, 2.4 A, preferred chain A.
+    note: "apelin receptor. Electron microscopy, 2.4 A, preferred chain A."
 
   - pdb_id: 9LR1
     uniprot: P35414
     receptor: apj
     state: active
-    note: apelin receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "apelin receptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 4BVN
     uniprot: P07700
     receptor: adrb1
     state: inactive
-    note: &beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.1 A, preferred chain A.
+    note: "&beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.1 A, preferred chain A."
 
   - pdb_id: 8DCS
     uniprot: P07700
     receptor: adrb1
     state: active
-    note: &beta;<sub>1</sub>-adrenoceptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "&beta;<sub>1</sub>-adrenoceptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 7F8Y
     uniprot: P32238
     receptor: cckar
     state: inactive
-    note: CCK<sub>1</sub> receptor. X-ray diffraction, 2.5 A, preferred chain A.
+    note: "CCK<sub>1</sub> receptor. X-ray diffraction, 2.5 A, preferred chain A."
 
   - pdb_id: 7MBX
     uniprot: P32238
     receptor: cckar
     state: active
-    note: CCK<sub>1</sub> receptor. Electron microscopy, 1.95 A, preferred chain R.
+    note: "CCK<sub>1</sub> receptor. Electron microscopy, 1.95 A, preferred chain R."
 
   - pdb_id: 6HLP
     uniprot: P25103
     receptor: nk1r
     state: inactive
-    note: NK<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain A.
+    note: "NK<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain A."
 
   - pdb_id: 8U26
     uniprot: P25103
     receptor: nk1r
     state: active
-    note: NK<sub>1</sub> receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "NK<sub>1</sub> receptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 7WC8
     uniprot: P28223
     receptor: 5ht2a
     state: inactive
-    note: 5-HT<sub>2A</sub> receptor. X-ray diffraction, 2.45 A, preferred chain A.
+    note: "5-HT<sub>2A</sub> receptor. X-ray diffraction, 2.45 A, preferred chain A."
 
   - pdb_id: 9AS8
     uniprot: P28223
     receptor: 5ht2a
     state: active
-    note: 5-HT<sub>2A</sub> receptor. Electron microscopy, 2.54 A, preferred chain A.
+    note: "5-HT<sub>2A</sub> receptor. Electron microscopy, 2.54 A, preferred chain A."
 
   - pdb_id: 6OL9
     uniprot: P08912
     receptor: acm5
     state: inactive
-    note: M<sub>5</sub> receptor. X-ray diffraction, 2.54 A, preferred chain A.
+    note: "M<sub>5</sub> receptor. X-ray diffraction, 2.54 A, preferred chain A."
 
   - pdb_id: 9EJZ
     uniprot: P08912
     receptor: acm5
     state: active
-    note: M<sub>5</sub> receptor. Electron microscopy, 2.06 A, preferred chain R.
+    note: "M<sub>5</sub> receptor. Electron microscopy, 2.06 A, preferred chain R."
 
   - pdb_id: 6YVR
     uniprot: P20789
     receptor: ntr1
     state: inactive
-    note: NTS<sub>1</sub> receptor. X-ray diffraction, 2.458 A, preferred chain A.
+    note: "NTS<sub>1</sub> receptor. X-ray diffraction, 2.458 A, preferred chain A."
 
   - pdb_id: 8FMZ
     uniprot: P20789
     receptor: ntr1
     state: active
-    note: NTS<sub>1</sub> receptor. Electron microscopy, 2.59 A, preferred chain A.
+    note: "NTS<sub>1</sub> receptor. Electron microscopy, 2.59 A, preferred chain A."
 
   - pdb_id: 5DSG
     uniprot: P08173
     receptor: acm4
     state: inactive
-    note: M<sub>4</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "M<sub>4</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 7TRP
     uniprot: P08173
     receptor: acm4
     state: active
-    note: M<sub>4</sub> receptor. Electron microscopy, 2.4 A, preferred chain R.
+    note: "M<sub>4</sub> receptor. Electron microscopy, 2.4 A, preferred chain R."
 
   - pdb_id: 7XN9
     uniprot: P30874
     receptor: ssr2
     state: inactive
-    note: SST2 receptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "SST2 receptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 7T10
     uniprot: P30874
     receptor: ssr2
     state: active
-    note: SST2 receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "SST2 receptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 5NM4
     uniprot: P29274
     receptor: aa2ar
     state: inactive
-    note: A<sub>2A</sub> receptor. X-ray diffraction, 1.7 A, preferred chain A.
+    note: "A<sub>2A</sub> receptor. X-ray diffraction, 1.7 A, preferred chain A."
 
   - pdb_id: 4UG2
     uniprot: P29274
     receptor: aa2ar
     state: active
-    note: A<sub>2A</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "A<sub>2A</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 5U09
     uniprot: P21554
     receptor: cnr1
     state: inactive
-    note: CB<sub>1</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "CB<sub>1</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 23IW
     uniprot: P21554
     receptor: cnr1
     state: active
-    note: CB<sub>1</sub> receptor. Electron microscopy, 2.42 A, preferred chain R.
+    note: "CB<sub>1</sub> receptor. Electron microscopy, 2.42 A, preferred chain R."
 
   - pdb_id: 7BVQ
     uniprot: P08588
     receptor: adrb1
     state: inactive
-    note: &beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.5 A, preferred chain A.
+    note: "&beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.5 A, preferred chain A."
 
   - pdb_id: 7BU7
     uniprot: P08588
     receptor: adrb1
     state: active
-    note: &beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "&beta;<sub>1</sub>-adrenoceptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 8T1V
     uniprot: P46095
     receptor: gpr6
     state: inactive
-    note: GPR6. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "GPR6. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 8TF5
     uniprot: P46095
     receptor: gpr6
     state: active
-    note: GPR6. X-ray diffraction, 2.1 A, preferred chain A.
+    note: "GPR6. X-ray diffraction, 2.1 A, preferred chain A."
 
   - pdb_id: 9HAP
     uniprot: P30518
     receptor: v2r
     state: inactive
-    note: V<sub>2</sub> receptor. Electron microscopy, 2.5 A, preferred chain R.
+    note: "V<sub>2</sub> receptor. Electron microscopy, 2.5 A, preferred chain R."
 
   - pdb_id: 7DW9
     uniprot: P30518
     receptor: v2r
     state: active
-    note: V<sub>2</sub> receptor. Electron microscopy, 2.6 A, preferred chain R.
+    note: "V<sub>2</sub> receptor. Electron microscopy, 2.6 A, preferred chain R."
 
   - pdb_id: 7M8W
     uniprot: Q9Y5Y4
     receptor: pd2r2
     state: inactive
-    note: DP<sub>2</sub> receptor. X-ray diffraction, 2.61 A, preferred chain A.
+    note: "DP<sub>2</sub> receptor. X-ray diffraction, 2.61 A, preferred chain A."
 
   - pdb_id: 8XXV
     uniprot: Q9Y5Y4
     receptor: pd2r2
     state: active
-    note: DP<sub>2</sub> receptor. Electron microscopy, 2.33 A, preferred chain A.
+    note: "DP<sub>2</sub> receptor. Electron microscopy, 2.33 A, preferred chain A."
 
   - pdb_id: 3ODU
     uniprot: P61073
     receptor: cxcr4
     state: inactive
-    note: CXCR4. X-ray diffraction, 2.5 A, preferred chain B.
+    note: "CXCR4. X-ray diffraction, 2.5 A, preferred chain B."
 
   - pdb_id: 9UPV
     uniprot: P61073
     receptor: cxcr4
     state: active
-    note: CXCR4. Electron microscopy, 2.7 A, preferred chain R.
+    note: "CXCR4. Electron microscopy, 2.7 A, preferred chain R."
 
   - pdb_id: 7F61
     uniprot: Q9Y5N1
     receptor: hrh3
     state: inactive
-    note: H<sub>3</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A.
+    note: "H<sub>3</sub> receptor. X-ray diffraction, 2.6 A, preferred chain A."
 
   - pdb_id: 8YUU
     uniprot: Q9Y5N1
     receptor: hrh3
     state: active
-    note: H<sub>3</sub> receptor. Electron microscopy, 2.7 A, preferred chain R.
+    note: "H<sub>3</sub> receptor. Electron microscopy, 2.7 A, preferred chain R."
 
   - pdb_id: 9W32
     uniprot: P35346
     receptor: ssr5
     state: inactive
-    note: SST5 receptor. Electron microscopy, 2.59 A, preferred chain A.
+    note: "SST5 receptor. Electron microscopy, 2.59 A, preferred chain A."
 
   - pdb_id: 8X8L
     uniprot: P35346
     receptor: ssr5
     state: active
-    note: SST5 receptor. Electron microscopy, 2.7 A, preferred chain R.
+    note: "SST5 receptor. Electron microscopy, 2.7 A, preferred chain R."
 
   - pdb_id: 6W25
     uniprot: P32245
     receptor: mc4r
     state: inactive
-    note: MC<sub>4</sub> receptor. X-ray diffraction, 2.75 A, preferred chain A.
+    note: "MC<sub>4</sub> receptor. X-ray diffraction, 2.75 A, preferred chain A."
 
   - pdb_id: 7PIU
     uniprot: P32245
     receptor: mc4r
     state: active
-    note: MC<sub>4</sub> receptor. Electron microscopy, 2.58 A, preferred chain R.
+    note: "MC<sub>4</sub> receptor. Electron microscopy, 2.58 A, preferred chain R."
 
   - pdb_id: 9LLG
     uniprot: P21728
     receptor: drd1
     state: inactive
-    note: D<sub>1</sub> receptor. Electron microscopy, 2.77 A, preferred chain R.
+    note: "D<sub>1</sub> receptor. Electron microscopy, 2.77 A, preferred chain R."
 
   - pdb_id: 9LLJ
     uniprot: P21728
     receptor: drd1
     state: active
-    note: D<sub>1</sub> receptor. Electron microscopy, 2.61 A, preferred chain R.
+    note: "D<sub>1</sub> receptor. Electron microscopy, 2.61 A, preferred chain R."
 
   - pdb_id: 6LI0
     uniprot: Q9Y2T5
     receptor: gpr52
     state: inactive
-    note: GPR52. X-ray diffraction, 2.2 A, preferred chain A.
+    note: "GPR52. X-ray diffraction, 2.2 A, preferred chain A."
 
   - pdb_id: 8HMP
     uniprot: Q9Y2T5
     receptor: gpr52
     state: active
-    note: GPR52. Electron microscopy, 2.77 A, preferred chain R.
+    note: "GPR52. Electron microscopy, 2.77 A, preferred chain R."
 
   - pdb_id: 2RH1
     uniprot: P07550
     receptor: adrb2
     state: inactive
-    note: &beta;<sub>2</sub>-adrenoceptor. X-ray diffraction, 2.4 A, preferred chain A.
+    note: "&beta;<sub>2</sub>-adrenoceptor. X-ray diffraction, 2.4 A, preferred chain A."
 
   - pdb_id: 4LDE
     uniprot: P07550
     receptor: adrb2
     state: active
-    note: &beta;<sub>2</sub>-adrenoceptor. X-ray diffraction, 2.79 A, preferred chain A.
+    note: "&beta;<sub>2</sub>-adrenoceptor. X-ray diffraction, 2.79 A, preferred chain A."
 
   - pdb_id: 7UL4
     uniprot: P42866
     receptor: oprm
     state: inactive
-    note: &mu; receptor. Electron microscopy, 2.8 A, preferred chain A.
+    note: "&mu; receptor. Electron microscopy, 2.8 A, preferred chain A."
 
   - pdb_id: 5C1M
     uniprot: P42866
     receptor: oprm
     state: active
-    note: &mu; receptor. X-ray diffraction, 2.07 A, preferred chain A.
+    note: "&mu; receptor. X-ray diffraction, 2.07 A, preferred chain A."
 
   - pdb_id: 7UM4
     uniprot: P47898
     receptor: 5ht5a
     state: inactive
-    note: 5-HT<sub>5A</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "5-HT<sub>5A</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 7UM5
     uniprot: P47898
     receptor: 5ht5a
     state: active
-    note: 5-HT<sub>5A</sub> receptor. Electron microscopy, 2.73 A, preferred chain A.
+    note: "5-HT<sub>5A</sub> receptor. Electron microscopy, 2.73 A, preferred chain A."
 
   - pdb_id: 5ZTY
     uniprot: P34972
     receptor: cnr2
     state: inactive
-    note: CB<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "CB<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 12IZ
     uniprot: P34972
     receptor: cnr2
     state: active
-    note: CB<sub>2</sub> receptor. Electron microscopy, 2.72 A, preferred chain R.
+    note: "CB<sub>2</sub> receptor. Electron microscopy, 2.72 A, preferred chain R."
 
   - pdb_id: 3V2Y
     uniprot: P21453
     receptor: s1pr1
     state: inactive
-    note: S1P<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "S1P<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 7TD4
     uniprot: P21453
     receptor: s1pr1
     state: active
-    note: S1P<sub>1</sub> receptor. Electron microscopy, 2.6 A, preferred chain R.
+    note: "S1P<sub>1</sub> receptor. Electron microscopy, 2.6 A, preferred chain R."
 
   - pdb_id: 4ZUD
     uniprot: P30556
     receptor: agtr1
     state: inactive
-    note: AT<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "AT<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 6OS2
     uniprot: P30556
     receptor: agtr1
     state: active
-    note: AT<sub>1</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A.
+    note: "AT<sub>1</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A."
 
   - pdb_id: 6C1R
     uniprot: P21730
     receptor: c5ar1
     state: inactive
-    note: C5a<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain B.
+    note: "C5a<sub>1</sub> receptor. X-ray diffraction, 2.2 A, preferred chain B."
 
   - pdb_id: 7Y67
     uniprot: P21730
     receptor: c5ar1
     state: active
-    note: C5a<sub>1</sub> receptor. Electron microscopy, 2.8 A, preferred chain D.
+    note: "C5a<sub>1</sub> receptor. Electron microscopy, 2.8 A, preferred chain D."
 
   - pdb_id: 5UIW
     uniprot: P51681
     receptor: ccr5
     state: inactive
-    note: CCR5. X-ray diffraction, 2.2 A, preferred chain A.
+    note: "CCR5. X-ray diffraction, 2.2 A, preferred chain A."
 
   - pdb_id: 7F1S
     uniprot: P51681
     receptor: ccr5
     state: active
-    note: CCR5. Electron microscopy, 2.8 A, preferred chain R.
+    note: "CCR5. Electron microscopy, 2.8 A, preferred chain R."
 
   - pdb_id: 6IGK
     uniprot: P24530
     receptor: ednrb
     state: inactive
-    note: ET<sub>B</sub> receptor. X-ray diffraction, 2.0 A, preferred chain A.
+    note: "ET<sub>B</sub> receptor. X-ray diffraction, 2.0 A, preferred chain A."
 
   - pdb_id: 8IY5
     uniprot: P24530
     receptor: ednrb
     state: active
-    note: ET<sub>B</sub> receptor. Electron microscopy, 2.8 A, preferred chain R.
+    note: "ET<sub>B</sub> receptor. Electron microscopy, 2.8 A, preferred chain R."
 
   - pdb_id: 6KUX
     uniprot: P08913
     receptor: ada2a
     state: inactive
-    note: &alpha;<sub>2A</sub>-adrenoceptor. X-ray diffraction, 2.7 A, preferred chain A.
+    note: "&alpha;<sub>2A</sub>-adrenoceptor. X-ray diffraction, 2.7 A, preferred chain A."
 
   - pdb_id: 9CBL
     uniprot: P08913
     receptor: ada2a
     state: active
-    note: &alpha;<sub>2A</sub>-adrenoceptor. Electron microscopy, 2.8 A, preferred chain R.
+    note: "&alpha;<sub>2A</sub>-adrenoceptor. Electron microscopy, 2.8 A, preferred chain R."
 
   - pdb_id: 9UGL
     uniprot: P28335
     receptor: 5ht2c
     state: inactive
-    note: 5-HT<sub>2C</sub> receptor. Electron microscopy, 2.65 A, preferred chain A.
+    note: "5-HT<sub>2C</sub> receptor. Electron microscopy, 2.65 A, preferred chain A."
 
   - pdb_id: 8DPF
     uniprot: P28335
     receptor: 5ht2c
     state: active
-    note: 5-HT<sub>2C</sub> receptor. Electron microscopy, 2.84 A, preferred chain A.
+    note: "5-HT<sub>2C</sub> receptor. Electron microscopy, 2.84 A, preferred chain A."
 
   - pdb_id: 6CM4
     uniprot: P14416
     receptor: drd2
     state: inactive
-    note: D<sub>2</sub> receptor. X-ray diffraction, 2.87 A, preferred chain A.
+    note: "D<sub>2</sub> receptor. X-ray diffraction, 2.87 A, preferred chain A."
 
   - pdb_id: 9BS9
     uniprot: P14416
     receptor: drd2
     state: active
-    note: D<sub>2</sub> receptor. Electron microscopy, 2.28 A, preferred chain R.
+    note: "D<sub>2</sub> receptor. Electron microscopy, 2.28 A, preferred chain R."
 
   - pdb_id: 6ZFZ
     uniprot: P11229
     receptor: acm1
     state: inactive
-    note: M<sub>1</sub> receptor. X-ray diffraction, 2.17 A, preferred chain A.
+    note: "M<sub>1</sub> receptor. X-ray diffraction, 2.17 A, preferred chain A."
 
   - pdb_id: 9UCP
     uniprot: P11229
     receptor: acm1
     state: active
-    note: M<sub>1</sub> receptor. Electron microscopy, 2.88 A, preferred chain A.
+    note: "M<sub>1</sub> receptor. Electron microscopy, 2.88 A, preferred chain A."
 
   - pdb_id: 3PBL
     uniprot: P35462
     receptor: drd3
     state: inactive
-    note: D<sub>3</sub> receptor. X-ray diffraction, 2.89 A, preferred chain A.
+    note: "D<sub>3</sub> receptor. X-ray diffraction, 2.89 A, preferred chain A."
 
   - pdb_id: 8IRT
     uniprot: P35462
     receptor: drd3
     state: active
-    note: D<sub>3</sub> receptor. Electron microscopy, 2.7 A, preferred chain R.
+    note: "D<sub>3</sub> receptor. Electron microscopy, 2.7 A, preferred chain R."
 
   - pdb_id: 8W1A
     uniprot: Q98146
     receptor: vgpcr
     state: inactive
-    note: ORF74. Electron microscopy, 2.89 A, preferred chain A.
+    note: "ORF74. Electron microscopy, 2.89 A, preferred chain A."
 
   - pdb_id: 8K4P
     uniprot: Q98146
     receptor: vgpcr
     state: active
-    note: ORF74. Electron microscopy, 2.81 A, preferred chain A.
+    note: "ORF74. Electron microscopy, 2.81 A, preferred chain A."
 
   - pdb_id: 6GPX
     uniprot: P41597
     receptor: ccr2
     state: inactive
-    note: CCR2. X-ray diffraction, 2.7 A, preferred chain A.
+    note: "CCR2. X-ray diffraction, 2.7 A, preferred chain A."
 
   - pdb_id: 7XA3
     uniprot: P41597
     receptor: ccr2
     state: active
-    note: CCR2. Electron microscopy, 2.9 A, preferred chain R.
+    note: "CCR2. Electron microscopy, 2.9 A, preferred chain R."
 
   - pdb_id: 4DJH
     uniprot: P41145
     receptor: oprk
     state: inactive
-    note: &kappa; receptor. X-ray diffraction, 2.9 A, preferred chain A.
+    note: "&kappa; receptor. X-ray diffraction, 2.9 A, preferred chain A."
 
   - pdb_id: 22ES
     uniprot: P41145
     receptor: oprk
     state: active
-    note: &kappa; receptor. Electron microscopy, 2.43 A, preferred chain R.
+    note: "&kappa; receptor. Electron microscopy, 2.43 A, preferred chain R."
 
   - pdb_id: 4Z35
     uniprot: Q92633
     receptor: lpar1
     state: inactive
-    note: LPA<sub>1</sub> receptor. X-ray diffraction, 2.9 A, preferred chain A.
+    note: "LPA<sub>1</sub> receptor. X-ray diffraction, 2.9 A, preferred chain A."
 
   - pdb_id: 7TD0
     uniprot: Q92633
     receptor: lpar1
     state: active
-    note: LPA<sub>1</sub> receptor. Electron microscopy, 2.83 A, preferred chain R.
+    note: "LPA<sub>1</sub> receptor. Electron microscopy, 2.83 A, preferred chain R."
 
   - pdb_id: 8HN1
     uniprot: P35348
     receptor: ada1a
     state: inactive
-    note: &alpha;<sub>1A</sub>-adrenoceptor. Electron microscopy, 2.9 A, preferred chain A.
+    note: "&alpha;<sub>1A</sub>-adrenoceptor. Electron microscopy, 2.9 A, preferred chain A."
 
   - pdb_id: 8THK
     uniprot: P35348
     receptor: ada1a
     state: active
-    note: &alpha;<sub>1A</sub>-adrenoceptor. Electron microscopy, 2.6 A, preferred chain R.
+    note: "&alpha;<sub>1A</sub>-adrenoceptor. Electron microscopy, 2.6 A, preferred chain R."
 
   - pdb_id: 8TLM
     uniprot: P51685
     receptor: ccr8
     state: inactive
-    note: CCR8. Electron microscopy, 2.9 A, preferred chain C.
+    note: "CCR8. Electron microscopy, 2.9 A, preferred chain C."
 
   - pdb_id: 8XML
     uniprot: P51685
     receptor: ccr8
     state: active
-    note: CCR8. Electron microscopy, 2.58 A, preferred chain R.
+    note: "CCR8. Electron microscopy, 2.58 A, preferred chain R."
 
   - pdb_id: 7K15
     uniprot: Q15722
     receptor: lt4r1
     state: inactive
-    note: BLT<sub>1</sub> receptor. X-ray diffraction, 2.88 A, preferred chain A.
+    note: "BLT<sub>1</sub> receptor. X-ray diffraction, 2.88 A, preferred chain A."
 
   - pdb_id: 7VKT
     uniprot: Q15722
     receptor: lt4r1
     state: active
-    note: BLT<sub>1</sub> receptor. Electron microscopy, 2.9 A, preferred chain A.
+    note: "BLT<sub>1</sub> receptor. Electron microscopy, 2.9 A, preferred chain A."
 
   - pdb_id: 9JG0
     uniprot: Q9Y5X5
     receptor: npff2
     state: inactive
-    note: NPFF2 receptor. Electron microscopy, 2.91 A, preferred chain R.
+    note: "NPFF2 receptor. Electron microscopy, 2.91 A, preferred chain R."
 
   - pdb_id: 9M1O
     uniprot: Q9Y5X5
     receptor: npff2
     state: active
-    note: NPFF2 receptor. Electron microscopy, 2.49 A, preferred chain R.
+    note: "NPFF2 receptor. Electron microscopy, 2.49 A, preferred chain R."
 
   - pdb_id: 7F83
     uniprot: Q92847
     receptor: ghsr
     state: inactive
-    note: ghrelin receptor. X-ray diffraction, 2.94 A, preferred chain A.
+    note: "ghrelin receptor. X-ray diffraction, 2.94 A, preferred chain A."
 
   - pdb_id: 9UY3
     uniprot: Q92847
     receptor: ghsr
     state: active
-    note: ghrelin receptor. Electron microscopy, 2.52 A, preferred chain R.
+    note: "ghrelin receptor. Electron microscopy, 2.52 A, preferred chain R."
 
   - pdb_id: 7DDZ
     uniprot: P49146
     receptor: npy2r
     state: inactive
-    note: Y<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "Y<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 7YON
     uniprot: P49146
     receptor: npy2r
     state: active
-    note: Y<sub>2</sub> receptor. Electron microscopy, 2.95 A, preferred chain R.
+    note: "Y<sub>2</sub> receptor. Electron microscopy, 2.95 A, preferred chain R."
 
   - pdb_id: 6QZH
     uniprot: P32248
     receptor: ccr7
     state: inactive
-    note: CCR7. X-ray diffraction, 2.1 A, preferred chain A.
+    note: "CCR7. X-ray diffraction, 2.1 A, preferred chain A."
 
   - pdb_id: 9KO2
     uniprot: P32248
     receptor: ccr7
     state: active
-    note: CCR7. Electron microscopy, 2.98 A, preferred chain R.
+    note: "CCR7. Electron microscopy, 2.98 A, preferred chain R."
 
   - pdb_id: 8X5Y
     uniprot: P35367
     receptor: hrh1
     state: inactive
-    note: H<sub>1</sub> receptor. Electron microscopy, 3.0 A, preferred chain B.
+    note: "H<sub>1</sub> receptor. Electron microscopy, 3.0 A, preferred chain B."
 
   - pdb_id: 8YN2
     uniprot: P35367
     receptor: hrh1
     state: active
-    note: H<sub>1</sub> receptor. Electron microscopy, 2.66 A, preferred chain R.
+    note: "H<sub>1</sub> receptor. Electron microscopy, 2.66 A, preferred chain R."
 
   - pdb_id: 5WQC
     uniprot: O43614
     receptor: ox2r
     state: inactive
-    note: OX<sub>2</sub> receptor. X-ray diffraction, 1.96 A, preferred chain A.
+    note: "OX<sub>2</sub> receptor. X-ray diffraction, 1.96 A, preferred chain A."
 
   - pdb_id: 7L1V
     uniprot: O43614
     receptor: ox2r
     state: active
-    note: OX<sub>2</sub> receptor. Electron microscopy, 3.0 A, preferred chain R.
+    note: "OX<sub>2</sub> receptor. Electron microscopy, 3.0 A, preferred chain R."
 
   - pdb_id: 8K2W
     uniprot: P49682
     receptor: cxcr3
     state: inactive
-    note: CXCR3. Electron microscopy, 3.0 A, preferred chain R.
+    note: "CXCR3. Electron microscopy, 3.0 A, preferred chain R."
 
   - pdb_id: 8HNM
     uniprot: P49682
     receptor: cxcr3
     state: active
-    note: CXCR3. Electron microscopy, 2.94 A, preferred chain R.
+    note: "CXCR3. Electron microscopy, 2.94 A, preferred chain R."
 
   - pdb_id: 7W41
     uniprot: P30550
     receptor: grpr
     state: inactive
-    note: BB<sub>2</sub> receptor. X-ray diffraction, 2.95 A, preferred chain A.
+    note: "BB<sub>2</sub> receptor. X-ray diffraction, 2.95 A, preferred chain A."
 
   - pdb_id: 7W40
     uniprot: P30550
     receptor: grpr
     state: active
-    note: BB<sub>2</sub> receptor. Electron microscopy, 3.0 A, preferred chain A.
+    note: "BB<sub>2</sub> receptor. Electron microscopy, 3.0 A, preferred chain A."
 
   - pdb_id: 5DHG
     uniprot: P41146
     receptor: oprx
     state: inactive
-    note: NOP receptor. X-ray diffraction, 3.0 A, preferred chain A.
+    note: "NOP receptor. X-ray diffraction, 3.0 A, preferred chain A."
 
   - pdb_id: 23OI
     uniprot: P41146
     receptor: oprx
     state: active
-    note: NOP receptor. Electron microscopy, 2.74 A, preferred chain R.
+    note: "NOP receptor. Electron microscopy, 2.74 A, preferred chain R."
 
   - pdb_id: 9W0H
     uniprot: Q99500
     receptor: s1pr3
     state: inactive
-    note: S1P<sub>3</sub> receptor. X-ray diffraction, 3.0 A, preferred chain A.
+    note: "S1P<sub>3</sub> receptor. X-ray diffraction, 3.0 A, preferred chain A."
 
   - pdb_id: 9W0O
     uniprot: Q99500
     receptor: s1pr3
     state: active
-    note: S1P<sub>3</sub> receptor. Electron microscopy, 3.0 A, preferred chain D.
+    note: "S1P<sub>3</sub> receptor. Electron microscopy, 3.0 A, preferred chain D."
 
   - pdb_id: 9WIJ
     uniprot: Q9NQS5
     receptor: gpr84
     state: inactive
-    note: GPR84. Electron microscopy, 3.05 A, preferred chain A.
+    note: "GPR84. Electron microscopy, 3.05 A, preferred chain A."
 
   - pdb_id: 8J18
     uniprot: Q9NQS5
     receptor: gpr84
     state: active
-    note: GPR84. Electron microscopy, 2.89 A, preferred chain R.
+    note: "GPR84. Electron microscopy, 2.89 A, preferred chain R."
 
   - pdb_id: 6IIU
     uniprot: P21731
     receptor: ta2r
     state: inactive
-    note: TP receptor. X-ray diffraction, 2.5 A, preferred chain A.
+    note: "TP receptor. X-ray diffraction, 2.5 A, preferred chain A."
 
   - pdb_id: 8XJN
     uniprot: P21731
     receptor: ta2r
     state: active
-    note: TP receptor. Electron microscopy, 3.06 A, preferred chain R.
+    note: "TP receptor. Electron microscopy, 3.06 A, preferred chain R."
 
   - pdb_id: 9QP4
     uniprot: P03999
     receptor: opsb
     state: inactive
-    note: OPN1SW. Electron microscopy, 3.06 A, preferred chain A.
+    note: "OPN1SW. Electron microscopy, 3.06 A, preferred chain A."
 
   - pdb_id: 8Y02
     uniprot: P03999
     receptor: opsb
     state: active
-    note: OPN1SW. Electron microscopy, 2.61 A, preferred chain R.
+    note: "OPN1SW. Electron microscopy, 2.61 A, preferred chain R."
 
   - pdb_id: 9V35
     uniprot: Q9P296
     receptor: c5ar2
     state: inactive
-    note: C5a<sub>2</sub> receptor. Electron microscopy, 2.97 A, preferred chain A.
+    note: "C5a<sub>2</sub> receptor. Electron microscopy, 2.97 A, preferred chain A."
 
   - pdb_id: 9V3Y
     uniprot: Q9P296
     receptor: c5ar2
     state: active
-    note: C5a<sub>2</sub> receptor. Electron microscopy, 3.06 A, preferred chain R.
+    note: "C5a<sub>2</sub> receptor. Electron microscopy, 3.06 A, preferred chain R."
 
   - pdb_id: 7T9M
     uniprot: P16473
     receptor: tshr
     state: inactive
-    note: TSH receptor. Electron microscopy, 3.1 A, preferred chain R.
+    note: "TSH receptor. Electron microscopy, 3.1 A, preferred chain R."
 
   - pdb_id: 7UTZ
     uniprot: P16473
     receptor: tshr
     state: active
-    note: TSH receptor. Electron microscopy, 2.4 A, preferred chain R.
+    note: "TSH receptor. Electron microscopy, 2.4 A, preferred chain R."
 
   - pdb_id: 6ME2
     uniprot: P48039
     receptor: mtr1a
     state: inactive
-    note: MT<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "MT<sub>1</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 7VGY
     uniprot: P48039
     receptor: mtr1a
     state: active
-    note: MT<sub>1</sub> receptor. Electron microscopy, 3.1 A, preferred chain A.
+    note: "MT<sub>1</sub> receptor. Electron microscopy, 3.1 A, preferred chain A."
 
   - pdb_id: 9JQZ
     uniprot: P35408
     receptor: pe2r4
     state: inactive
-    note: EP<sub>4</sub> receptor. Electron microscopy, 2.65 A, preferred chain A.
+    note: "EP<sub>4</sub> receptor. Electron microscopy, 2.65 A, preferred chain A."
 
   - pdb_id: 8GDB
     uniprot: P35408
     receptor: pe2r4
     state: active
-    note: EP<sub>4</sub> receptor. Electron microscopy, 3.1 A, preferred chain R.
+    note: "EP<sub>4</sub> receptor. Electron microscopy, 3.1 A, preferred chain R."
 
   - pdb_id: 8KIG
     uniprot: P41968
     receptor: mc3r
     state: inactive
-    note: MC<sub>3</sub> receptor. Electron microscopy, 3.1 A, preferred chain R.
+    note: "MC<sub>3</sub> receptor. Electron microscopy, 3.1 A, preferred chain R."
 
   - pdb_id: 9K3F
     uniprot: P41968
     receptor: mc3r
     state: active
-    note: MC<sub>3</sub> receptor. Electron microscopy, 2.75 A, preferred chain R.
+    note: "MC<sub>3</sub> receptor. Electron microscopy, 2.75 A, preferred chain R."
 
   - pdb_id: 5ZKC
     uniprot: P08172
     receptor: acm2
     state: inactive
-    note: M<sub>2</sub> receptor. X-ray diffraction, 2.3 A, preferred chain A.
+    note: "M<sub>2</sub> receptor. X-ray diffraction, 2.3 A, preferred chain A."
 
   - pdb_id: 7T94
     uniprot: P08172
     receptor: acm2
     state: active
-    note: M<sub>2</sub> receptor. Electron microscopy, 3.16 A, preferred chain A.
+    note: "M<sub>2</sub> receptor. Electron microscopy, 3.16 A, preferred chain A."
 
   - pdb_id: 5UEN
     uniprot: P30542
     receptor: aa1r
     state: inactive
-    note: A<sub>1</sub> receptor. X-ray diffraction, 3.2 A, preferred chain A.
+    note: "A<sub>1</sub> receptor. X-ray diffraction, 3.2 A, preferred chain A."
 
   - pdb_id: 7LD3
     uniprot: P30542
     receptor: aa1r
     state: active
-    note: A<sub>1</sub> receptor. Electron microscopy, 3.2 A, preferred chain R.
+    note: "A<sub>1</sub> receptor. Electron microscopy, 3.2 A, preferred chain R."
 
   - pdb_id: 6LFL
     uniprot: P25025
     receptor: cxcr2
     state: inactive
-    note: CXCR2. X-ray diffraction, 3.2 A, preferred chain A.
+    note: "CXCR2. X-ray diffraction, 3.2 A, preferred chain A."
 
   - pdb_id: 8XXH
     uniprot: P25025
     receptor: cxcr2
     state: active
-    note: CXCR2. Electron microscopy, 2.8 A, preferred chain R.
+    note: "CXCR2. Electron microscopy, 2.8 A, preferred chain R."
 
   - pdb_id: 9EHS
     uniprot: P0DMS8
     receptor: aa3r
     state: inactive
-    note: A<sub>3</sub> receptor. Electron microscopy, 3.2 A, preferred chain R.
+    note: "A<sub>3</sub> receptor. Electron microscopy, 3.2 A, preferred chain R."
 
   - pdb_id: 8X17
     uniprot: P0DMS8
     receptor: aa3r
     state: active
-    note: A<sub>3</sub> receptor. Electron microscopy, 3.19 A, preferred chain R.
+    note: "A<sub>3</sub> receptor. Electron microscopy, 3.19 A, preferred chain R."
 
   - pdb_id: 6TPK
     uniprot: P30559
     receptor: oxyr
     state: inactive
-    note: OT receptor. X-ray diffraction, 3.2 A, preferred chain A.
+    note: "OT receptor. X-ray diffraction, 3.2 A, preferred chain A."
 
   - pdb_id: 7RYC
     uniprot: P30559
     receptor: oxyr
     state: active
-    note: OT receptor. Electron microscopy, 2.9 A, preferred chain O.
+    note: "OT receptor. Electron microscopy, 2.9 A, preferred chain O."
 
   - pdb_id: 5ZBQ
     uniprot: P25929
     receptor: npy1r
     state: inactive
-    note: Y<sub>1</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A.
+    note: "Y<sub>1</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A."
 
   - pdb_id: 7VGX
     uniprot: P25929
     receptor: npy1r
     state: active
-    note: Y<sub>1</sub> receptor. Electron microscopy, 3.2 A, preferred chain R.
+    note: "Y<sub>1</sub> receptor. Electron microscopy, 3.2 A, preferred chain R."
 
   - pdb_id: 5WIU
     uniprot: P21917
     receptor: drd4
     state: inactive
-    note: D<sub>4</sub> receptor. X-ray diffraction, 1.96 A, preferred chain A.
+    note: "D<sub>4</sub> receptor. X-ray diffraction, 1.96 A, preferred chain A."
 
   - pdb_id: 8IRU
     uniprot: P21917
     receptor: drd4
     state: active
-    note: D<sub>4</sub> receptor. Electron microscopy, 3.2 A, preferred chain R.
+    note: "D<sub>4</sub> receptor. Electron microscopy, 3.2 A, preferred chain R."
 
   - pdb_id: 8XVK
     uniprot: P25101
     receptor: ednra
     state: inactive
-    note: ET<sub>A</sub> receptor. Electron microscopy, 3.21 A, preferred chain R.
+    note: "ET<sub>A</sub> receptor. Electron microscopy, 3.21 A, preferred chain R."
 
   - pdb_id: 8HCQ
     uniprot: P25101
     receptor: ednra
     state: active
-    note: ET<sub>A</sub> receptor. Electron microscopy, 3.01 A, preferred chain R.
+    note: "ET<sub>A</sub> receptor. Electron microscopy, 3.01 A, preferred chain R."
 
   - pdb_id: 9MQJ
     uniprot: P35372
     receptor: oprm
     state: inactive
-    note: &mu; receptor. Electron microscopy, 3.23 A, preferred chain A.
+    note: "&mu; receptor. Electron microscopy, 3.23 A, preferred chain A."
 
   - pdb_id: 8Y72
     uniprot: P35372
     receptor: oprm
     state: active
-    note: &mu; receptor. Electron microscopy, 2.65 A, preferred chain R.
+    note: "&mu; receptor. Electron microscopy, 2.65 A, preferred chain R."
 
   - pdb_id: 9UVT
     uniprot: P30411
     receptor: bkrb2
     state: inactive
-    note: B<sub>2</sub> receptor. Electron microscopy, 3.29 A, preferred chain A.
+    note: "B<sub>2</sub> receptor. Electron microscopy, 3.29 A, preferred chain A."
 
   - pdb_id: 7F6I
     uniprot: P30411
     receptor: bkrb2
     state: active
-    note: B<sub>2</sub> receptor. Electron microscopy, 2.8 A, preferred chain A.
+    note: "B<sub>2</sub> receptor. Electron microscopy, 2.8 A, preferred chain A."
 
   - pdb_id: 8YNS
     uniprot: Q99705
     receptor: mchr1
     state: inactive
-    note: MCH<sub>1</sub> receptor. Electron microscopy, 3.33 A, preferred chain R.
+    note: "MCH<sub>1</sub> receptor. Electron microscopy, 3.33 A, preferred chain R."
 
   - pdb_id: 8WWK
     uniprot: Q99705
     receptor: mchr1
     state: active
-    note: MCH<sub>1</sub> receptor. Electron microscopy, 2.61 A, preferred chain R.
+    note: "MCH<sub>1</sub> receptor. Electron microscopy, 2.61 A, preferred chain R."
 
   - pdb_id: 9D3E
     uniprot: P51684
     receptor: ccr6
     state: inactive
-    note: CCR6. Electron microscopy, 3.02 A, preferred chain A.
+    note: "CCR6. Electron microscopy, 3.02 A, preferred chain A."
 
   - pdb_id: 6WWZ
     uniprot: P51684
     receptor: ccr6
     state: active
-    note: CCR6. Electron microscopy, 3.34 A, preferred chain R.
+    note: "CCR6. Electron microscopy, 3.34 A, preferred chain R."
 
   - pdb_id: 7YXA
     uniprot: Q9H228
     receptor: s1pr5
     state: inactive
-    note: S1P<sub>5</sub> receptor. X-ray diffraction, 2.2 A, preferred chain B.
+    note: "S1P<sub>5</sub> receptor. X-ray diffraction, 2.2 A, preferred chain B."
 
   - pdb_id: 7EW1
     uniprot: Q9H228
     receptor: s1pr5
     state: active
-    note: S1P<sub>5</sub> receptor. Electron microscopy, 3.4 A, preferred chain A.
+    note: "S1P<sub>5</sub> receptor. Electron microscopy, 3.4 A, preferred chain A."
 
   - pdb_id: 6ME6
     uniprot: P49286
     receptor: mtr1b
     state: inactive
-    note: MT<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A.
+    note: "MT<sub>2</sub> receptor. X-ray diffraction, 2.8 A, preferred chain A."
 
   - pdb_id: 7VH0
     uniprot: P49286
     receptor: mtr1b
     state: active
-    note: MT<sub>2</sub> receptor. Electron microscopy, 3.46 A, preferred chain A.
+    note: "MT<sub>2</sub> receptor. Electron microscopy, 3.46 A, preferred chain A."
 
   - pdb_id: 9LFA
     uniprot: P46663
     receptor: bkrb1
     state: inactive
-    note: B<sub>1</sub> receptor. Electron microscopy, 3.5 A, preferred chain A.
+    note: "B<sub>1</sub> receptor. Electron microscopy, 3.5 A, preferred chain A."
 
   - pdb_id: 7EIB
     uniprot: P46663
     receptor: bkrb1
     state: active
-    note: B<sub>1</sub> receptor. Electron microscopy, 3.0 A, preferred chain A.
+    note: "B<sub>1</sub> receptor. Electron microscopy, 3.0 A, preferred chain A."
 
   - pdb_id: 9IPY
     uniprot: Q16581
     receptor: c3ar
     state: inactive
-    note: C3a receptor. Electron microscopy, 3.5 A, preferred chain R.
+    note: "C3a receptor. Electron microscopy, 3.5 A, preferred chain R."
 
   - pdb_id: 9IPV
     uniprot: Q16581
     receptor: c3ar
     state: active
-    note: C3a receptor. Electron microscopy, 2.53 A, preferred chain R.
+    note: "C3a receptor. Electron microscopy, 2.53 A, preferred chain R."
 
   - pdb_id: 9JGK
     uniprot: P41595
     receptor: 5ht2b
     state: inactive
-    note: 5-HT<sub>2B</sub> receptor. Electron microscopy, 3.6 A, preferred chain A.
+    note: "5-HT<sub>2B</sub> receptor. Electron microscopy, 3.6 A, preferred chain A."
 
   - pdb_id: 7SRQ
     uniprot: P41595
     receptor: 5ht2b
     state: active
-    note: 5-HT<sub>2B</sub> receptor. Electron microscopy, 2.7 A, preferred chain R.
+    note: "5-HT<sub>2B</sub> receptor. Electron microscopy, 2.7 A, preferred chain R."
 
   - pdb_id: 9JF4
     uniprot: P28336
     receptor: nmbr
     state: inactive
-    note: BB<sub>1</sub> receptor. Electron microscopy, 3.6 A, preferred chain A.
+    note: "BB<sub>1</sub> receptor. Electron microscopy, 3.6 A, preferred chain A."
 
   - pdb_id: 8H0P
     uniprot: P28336
     receptor: nmbr
     state: active
-    note: BB<sub>1</sub> receptor. Electron microscopy, 3.15 A, preferred chain R.
+    note: "BB<sub>1</sub> receptor. Electron microscopy, 3.15 A, preferred chain R."
 
   - pdb_id: 9JG1
     uniprot: Q9H3N8
     receptor: hrh4
     state: inactive
-    note: H<sub>4</sub> receptor. Electron microscopy, 3.62 A, preferred chain R.
+    note: "H<sub>4</sub> receptor. Electron microscopy, 3.62 A, preferred chain R."
 
   - pdb_id: 8YN9
     uniprot: Q9H3N8
     receptor: hrh4
     state: active
-    note: H<sub>4</sub> receptor. Electron microscopy, 2.3 A, preferred chain R.
+    note: "H<sub>4</sub> receptor. Electron microscopy, 2.3 A, preferred chain R."
 
   - pdb_id: 9I3T
     uniprot: P04001
     receptor: opsg
     state: inactive
-    note: OPN1MW. Electron microscopy, 3.7 A, preferred chain A.
+    note: "OPN1MW. Electron microscopy, 3.7 A, preferred chain A."
 
   - pdb_id: 8Y01
     uniprot: P04001
     receptor: opsg
     state: active
-    note: OPN1MW. Electron microscopy, 2.48 A, preferred chain R.
+    note: "OPN1MW. Electron microscopy, 2.48 A, preferred chain R."
 
   - pdb_id: 4IAR
     uniprot: P28222
     receptor: 5ht1b
     state: inactive
-    note: 5-HT<sub>1B</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A.
+    note: "5-HT<sub>1B</sub> receptor. X-ray diffraction, 2.7 A, preferred chain A."
 
   - pdb_id: 6G79
     uniprot: P28222
     receptor: 5ht1b
     state: active
-    note: 5-HT<sub>1B</sub> receptor. Electron microscopy, 3.78 A, preferred chain S.
+    note: "5-HT<sub>1B</sub> receptor. Electron microscopy, 3.78 A, preferred chain S."
 
   - pdb_id: 7FIJ
     uniprot: P22888
     receptor: lshr
     state: inactive
-    note: LH receptor. Electron microscopy, 3.8 A, preferred chain R.
+    note: "LH receptor. Electron microscopy, 3.8 A, preferred chain R."
 
   - pdb_id: 7FIH
     uniprot: P22888
     receptor: lshr
     state: active
-    note: LH receptor. Electron microscopy, 3.2 A, preferred chain R.
+    note: "LH receptor. Electron microscopy, 3.2 A, preferred chain R."
 
   - pdb_id: 9L3Z
     uniprot: Q99788
     receptor: cml1
     state: inactive
-    note: chemerin receptor. Electron microscopy, 3.9 A, preferred chain A.
+    note: "chemerin receptor. Electron microscopy, 3.9 A, preferred chain A."
 
   - pdb_id: 7YKD
     uniprot: Q99788
     receptor: cml1
     state: active
-    note: chemerin receptor. Electron microscopy, 2.81 A, preferred chain A.
+    note: "chemerin receptor. Electron microscopy, 2.81 A, preferred chain A."
 
   - pdb_id: 6I9K
     uniprot: B1B1U5
     receptor: b1b1u5
     state: inactive
-    note: Rhodopsin. X-ray diffraction, 2.15 A, preferred chain A.
+    note: "Rhodopsin. X-ray diffraction, 2.15 A, preferred chain A."
 
   - pdb_id: 9EPP
     uniprot: B1B1U5
     receptor: b1b1u5
     state: active
-    note: Rhodopsin. Electron microscopy, 4.06 A, preferred chain R.
+    note: "Rhodopsin. Electron microscopy, 4.06 A, preferred chain R."
 
   - pdb_id: 8I2H
     uniprot: P23945
     receptor: fshr
     state: inactive
-    note: FSH receptor. Electron microscopy, 6.0 A, preferred chain A.
+    note: "FSH receptor. Electron microscopy, 6.0 A, preferred chain A."
 
   - pdb_id: 8I2G
     uniprot: P23945
     receptor: fshr
     state: active
-    note: FSH receptor. Electron microscopy, 2.8 A, preferred chain R.
+    note: "FSH receptor. Electron microscopy, 2.8 A, preferred chain R."

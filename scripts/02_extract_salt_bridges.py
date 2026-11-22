@@ -43,8 +43,21 @@ def read_csv(path):
         return list(csv.DictReader(handle))
 
 
-def run_arpeggio(pdb_id):
-    """Run arpeggio unless its output is already there. Returns the contacts."""
+def run_arpeggio(pdb_id, chains):
+    """Run arpeggio on the original structure, restricted to the receptor chains.
+
+    Active-state structures are usually complexes -- receptor plus a G protein,
+    often plus a nanobody -- and computing every contact in the whole assembly
+    is slow for results the analysis then discards. Arpeggio's own `-s` flag
+    narrows the computation to chosen chains.
+
+    The file handed to arpeggio must be the one downloaded from the PDB. An
+    earlier version of this script wrote a trimmed copy with gemmi instead,
+    which was much faster but silently wrong: the rewritten file lost its
+    polymer annotation, arpeggio then treated every residue as a free monomer
+    rather than an amino acid, and stopped assigning charged groups entirely.
+    Every structure came back with zero salt bridges.
+    """
     output_path = ARPEGGIO_DIR / f"{pdb_id}.json"
 
     if not output_path.exists():
@@ -52,9 +65,11 @@ def run_arpeggio(pdb_id):
         if not structure_path.exists():
             raise SystemExit(f"Missing {structure_path}. Run script 01 first.")
 
-        print(f"  {pdb_id}: running arpeggio")
+        selection = [f"/{chain}//" for chain in sorted(chains)]
+        print(f"  {pdb_id}: running arpeggio on chains {','.join(sorted(chains))}")
         result = subprocess.run(
-            ["pdbe-arpeggio", "-o", str(ARPEGGIO_DIR), "-m", str(structure_path)],
+            ["pdbe-arpeggio", "-o", str(ARPEGGIO_DIR), "-m",
+             "-s", *selection, str(structure_path)],
             capture_output=True,
             text=True,
         )
@@ -154,8 +169,9 @@ def main():
     rows = []
     for structure in structures:
         pdb_id = structure["pdb_id"]
+        chains = set(filter(None, structure.get("receptor_chains", "").split(";")))
 
-        contacts = run_arpeggio(pdb_id)
+        contacts = run_arpeggio(pdb_id, chains)
         keep = receptor_residues(pdb_id, regions_by_pdb[pdb_id])
         bridges = salt_bridges(contacts, keep)
 
@@ -176,11 +192,19 @@ def main():
                 }
             )
 
-        chains = sorted({chain for chain, _, _ in bridges})
+        found_in = sorted({chain for chain, _, _ in bridges})
         print(
             f"  {pdb_id}: {len(bridges)} salt bridges "
-            f"across {len(chains)} chain(s), {len(keep)} receptor residues"
+            f"across {len(found_in)} chain(s), {len(keep)} receptor residues"
         )
+        if not bridges:
+            # Zero is possible but unusual. Say why, so a silent failure of
+            # the kind described in run_arpeggio cannot pass unnoticed.
+            ionic = sum(1 for c in contacts if "ionic" in c["contact"])
+            polymer = sum(1 for c in contacts
+                          if c["bgn"].get("label_comp_type") == "P")
+            print(f"      no bridges: {len(contacts)} contacts, {ionic} ionic, "
+                  f"{polymer} on polymer residues")
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT, "w", newline="") as handle:

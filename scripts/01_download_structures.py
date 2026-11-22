@@ -98,12 +98,18 @@ def receptor_regions(pdb_id, uniprot):
     stretches align to which UniProt entry; anything not aligned to the
     receptor's accession is fusion and is excluded downstream.
 
-    Returns (rows, chains, entity_descriptions).
+    Returns (rows, chains, entity_descriptions), or None when no region of the
+    structure aligns to the receptor. That happens for isoform-only records and
+    for very recent depositions whose SIFTS mapping has not been computed yet;
+    the caller skips those rather than stopping, since across a hundred-odd
+    structures a few will always be unusable.
     """
     entry = fetch_json(ENTRY_API.format(pdb_id=pdb_id))
     entity_ids = entry["rcsb_entry_container_identifiers"]["polymer_entity_ids"]
 
     rows, chains, descriptions = [], set(), []
+    # P41143-2 is an isoform of P41143 and maps to the same receptor.
+    wanted = uniprot.split("-")[0]
 
     for entity_id in entity_ids:
         time.sleep(DELAY)
@@ -117,7 +123,8 @@ def receptor_regions(pdb_id, uniprot):
         )
 
         for alignment in entity.get("rcsb_polymer_entity_align") or []:
-            if alignment.get("reference_database_accession") != uniprot:
+            accession = str(alignment.get("reference_database_accession") or "")
+            if accession.split("-")[0] != wanted:
                 continue
 
             chains.update(entity_chains)
@@ -139,11 +146,10 @@ def receptor_regions(pdb_id, uniprot):
                 )
 
     if not rows:
-        raise SystemExit(
-            f"{pdb_id}: no region aligns to {uniprot}.\n"
-            f"Entities present: {descriptions}\n"
-            f"Check the UniProt accession in {CONFIG}."
-        )
+        print(f"  {pdb_id}: SKIPPED, no region aligns to {uniprot}")
+        for description in descriptions:
+            print(f"      entity {description}")
+        return None
 
     return rows, sorted(chains), descriptions
 
@@ -159,7 +165,7 @@ def main():
     META_DIR.mkdir(parents=True, exist_ok=True)
 
     today = date.today().isoformat()
-    structure_rows, region_rows = [], []
+    structure_rows, region_rows, skipped = [], [], []
 
     for item in config["structures"]:
         pdb_id = item["pdb_id"].lower()
@@ -173,7 +179,11 @@ def main():
         resolutions = info.get("resolution_combined") or [None]
 
         time.sleep(DELAY)
-        regions, chains, descriptions = receptor_regions(pdb_id, uniprot)
+        found = receptor_regions(pdb_id, uniprot)
+        if found is None:
+            skipped.append(pdb_id)
+            continue
+        regions, chains, descriptions = found
         region_rows.extend(regions)
 
         structure_rows.append(
@@ -205,6 +215,20 @@ def main():
 
     print(f"\n{len(structure_rows)} structures in {META_DIR / 'structures.csv'}")
     print(f"{len(region_rows)} regions in {META_DIR / 'receptor_regions.csv'}")
+
+    if skipped:
+        print(f"\n{len(skipped)} structure(s) skipped: {', '.join(skipped)}")
+        print("Their receptor could not be located by UniProt alignment, so")
+        print("the fusion protein could not be told apart from the receptor.")
+
+    # A receptor needs both states to contribute to the paired comparison.
+    by_receptor = {}
+    for row in structure_rows:
+        by_receptor.setdefault(row["receptor"], set()).add(row["state"])
+    unpaired = sorted(r for r, states in by_receptor.items() if len(states) < 2)
+    if unpaired:
+        print(f"\n{len(unpaired)} receptor(s) now have only one state: "
+              f"{', '.join(unpaired)}")
 
 
 def write_csv(path, rows):
