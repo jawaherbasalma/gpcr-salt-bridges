@@ -68,8 +68,11 @@ def run_arpeggio(pdb_id, chains):
         selection = [f"/{chain}//" for chain in sorted(chains)]
         print(f"  {pdb_id}: running arpeggio on chains {','.join(sorted(chains))}")
         result = subprocess.run(
-            ["pdbe-arpeggio", "-o", str(ARPEGGIO_DIR), "-m",
-             "-s", *selection, str(structure_path)],
+            # The path comes first: `-s` takes any number of selections, so
+            # argparse swallows a trailing filename as one more selection.
+            ["pdbe-arpeggio", str(structure_path),
+             "-o", str(ARPEGGIO_DIR), "-m",
+             "-s", *selection],
             capture_output=True,
             text=True,
         )
