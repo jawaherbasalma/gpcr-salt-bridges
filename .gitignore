@@ -32,3 +32,9 @@ reports/*_files/
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Nextflow scratch and logs
+work/
+.nextflow/
+.nextflow.log*
+results/nextflow/

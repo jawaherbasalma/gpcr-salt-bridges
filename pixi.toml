@@ -24,6 +24,7 @@ scipy = ">=1.18.1,<2"
 tabulate = ">=0.10.0,<0.11"
 
 [tasks]
+nextflow = { cmd = "nextflow run workflow/main.nf -resume", description = "Run the pipeline through Nextflow" }
 check = { cmd = "python --version && quarto --version", description = "Check that the tools work" }
 # `reproduce` must rebuild every result from the raw data with one command.
 reproduce = """
